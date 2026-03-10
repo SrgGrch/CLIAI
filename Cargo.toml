@@ -1,0 +1,16 @@
+[package]
+name = "cliai"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+clap = { version = "4.5.60", features = ["derive"] }
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+colored = "2"
+terminal_size = "0.3"
+directories = "5"
+toml = "0.8"
+regex = "1.12.3"
