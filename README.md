@@ -1,4 +1,5 @@
 # CLIAI
+[![Release](https://github.com/SrgGrch/CLIAI/actions/workflows/release.yml/badge.svg)](https://github.com/SrgGrch/CLIAI/actions/workflows/release.yml)
 
 A CLI tool that converts natural language descriptions into executable shell commands. Supports any OpenAI-compatible API (default: OpenRouter).
 
