@@ -2,7 +2,7 @@
 name = "cliai"
 version = "0.1.0"
 edition = "2024"
-
+repository = "https://github.com/SrgGrch/CLIAI"
 
 [dependencies]
 clap = { version = "4.5.60", features = ["derive"] }
@@ -14,3 +14,8 @@ terminal_size = "0.4.3"
 directories = "6.0.0"
 toml = "1.0.6+spec-1.1.0"
 regex = "1.12.3"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
