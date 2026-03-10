@@ -6,6 +6,11 @@ A CLI tool that converts natural language descriptions into executable shell com
 ## Contents
 
 - [Installation](#installation)
+  - [Shell script (macOS / Linux)](#shell-script-macos--linux)
+  - [PowerShell (Windows)](#powershell-windows)
+  - [Homebrew (macOS / Linux)](#homebrew-macos--linux)
+  - [Pre-built Binaries](#pre-built-binaries)
+  - [Build from Source](#build-from-source)
 - [Configuration](#configuration)
 - [Quick Start](#quick-start)
 - [Usage](#usage)
@@ -13,6 +18,18 @@ A CLI tool that converts natural language descriptions into executable shell com
 ---
 
 ## Installation
+
+### Shell script (macOS / Linux)
+
+```bash
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/SrgGrch/CLIAI/releases/latest/download/cliai-installer.sh | sh
+```
+
+### PowerShell (Windows)
+
+```powershell
+powershell -ExecutionPolicy Bypass -c "irm https://github.com/SrgGrch/CLIAI/releases/latest/download/cliai-installer.ps1 | iex"
+```
 
 ### Homebrew (macOS / Linux)
 
